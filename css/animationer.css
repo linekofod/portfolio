@@ -1,0 +1,28 @@
+.fade_in {
+    animation-name: fade_in_kf;
+    animation-duration: 5s;
+}
+
+@keyframes fade_in_kf {
+    from {
+        opacity: 0;
+    }
+} 
+
+.reveal {
+    opacity: 0;
+    transition: 2s;
+}
+.aktiv {
+    opacity: 1;
+    transition: 5s;
+}
+
+.reveal2 {
+    opacity: 0;
+    transition: 1s;
+}
+.aktiv2 {
+    opacity: 1;
+    transition: 2s;
+}
